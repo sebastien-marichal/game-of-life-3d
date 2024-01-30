@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://5klbn3flu1rf"]
+
+[ext_resource type="Script" path="res://MainScene.cs" id="1_dvula"]
+[ext_resource type="PackedScene" uid="uid://2vtapygd483h" path="res://grid.tscn" id="1_wresm"]
+[ext_resource type="Script" path="res://Camera3D.cs" id="2_j17k2"]
+[ext_resource type="Script" path="res://Ligth.cs" id="3_0rjvy"]
+
+[node name="MainScene" type="Node3D"]
+script = ExtResource("1_dvula")
+
+[node name="Grid" parent="." instance=ExtResource("1_wresm")]
+Width = 20
+Height = 20
+Depth = 20
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 20, 20)
+script = ExtResource("2_j17k2")
+
+[node name="Ligth" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 10, 59.2404)
+script = ExtResource("3_0rjvy")

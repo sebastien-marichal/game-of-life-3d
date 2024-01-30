@@ -1,0 +1,10 @@
+
+@csharpsquid:S3903"#Move 'grid' into a named namespace.(çÈ°ş
+hcsharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(­×†°8‡€Æ1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(º™„µÿÿÿÿÿ8‡€Æ1
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(øëÕ8‡€Æ1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ù‡˜¼şÿÿÿÿ8‡€Æ1
+mcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¶â‘™ûÿÿÿÿ8‡€Æ1
+Bcsharpsquid:S125"Remove this commented out code.(Ãşó€8Ï¨€Æ1
+Gcsharpsquid:S125"Remove this commented out code.(˜ê­¥úÿÿÿÿ8Î€Æ1
+Bcsharpsquid:S125<"Remove this commented out code.(Ú°à¬8¢àòÆ1

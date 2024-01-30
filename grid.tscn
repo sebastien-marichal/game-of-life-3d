@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://2vtapygd483h"]
+
+[ext_resource type="Script" path="res://grid.cs" id="1_yfsbw"]
+[ext_resource type="PackedScene" uid="uid://drvqa03jft8kw" path="res://cell.tscn" id="2_jtg42"]
+
+[node name="Grid" type="Node3D"]
+script = ExtResource("1_yfsbw")
+Width = 25
+Height = 25
+Depth = 25
+Step = 1000
+Cell = ExtResource("2_jtg42")
+
+[node name="Next" type="Timer" parent="."]
+one_shot = true
+autostart = true
